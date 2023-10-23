@@ -1,0 +1,163 @@
+ /*Não sei muito ainda como construir uma identidade Visual e isso foi o melhor que consegui o codigo esta bastante bagunçado e nao tive tempo de fazer algo muito melhor que isso (ps- os livros são muito grandes como alguem consegue fazer um livro de 1200 paginas sobre um sgbd?)*/
+ body {
+     font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+     background-color: #f0f0f0;
+ }
+
+
+ header {
+     background-color: #333;
+     color: #fff;
+     text-align: center;
+     padding: 20px;
+ }
+
+ header h1 {
+     font-size: 2em;
+     margin: 0;
+ }
+
+ header p {
+     font-size: 1.2em;
+ }
+
+
+ #trabalhos {
+     padding: 20px;
+ }
+
+ #trabalhos h2 {
+     font-size: 1.5em;
+ }
+
+ .trabalho {
+     margin: 20px 0;
+     padding: 10px;
+     border: 1px solid #ddd;
+     background-color: #f9f9f9;
+ }
+
+ .trabalho h3 {
+     font-size: 1.2em;
+ }
+
+ .trabalho p {
+     font-size: 1em;
+ }
+
+ .trabalho img {
+     max-width: 100%;
+ }
+
+ .cabecalho {
+     background-color: #333;
+     color: #fff;
+     text-align: center;
+     padding: 20px;
+ }
+
+
+ h1 {
+     font-size: 28px;
+     color: #333;
+     font-weight: bold;
+ }
+
+ h3 {
+     font-size: 20px;
+     color: #666;
+     font-style: italic;
+ }
+
+ .sobreft {
+     max-width: 300px;
+     max-height: 300px;
+     border-radius: 50%
+ }
+
+ .links a {
+     text-decoration: none;
+     color: #fff;
+     margin: 0 10px;
+ }
+
+ .links a:hover {
+     text-decoration: underline;
+ }
+
+ main {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+ }
+
+ #perfiltela1 {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+     text-align: center;
+ }
+
+ #perfiltela1 h1 {
+     font-size: 24px;
+ }
+
+ #perfiltela1 h2 {
+     font-size: 16px;
+ }
+
+ .logos img {
+     margin: 10px;
+     max-width: 100px;
+ }
+
+ #contato {
+     padding: 20px;
+ }
+
+ #contato h2 {
+     font-size: 1.5em;
+ }
+
+ #contato p {
+     font-size: 1.2em;
+ }
+
+ #contato form {
+     margin-top: 20px;
+     max-width: 400px;
+     margin: 20px auto;
+     padding: 10px;
+     border: 1px solid #ddd;
+     background-color: #f9f9f9;
+ }
+
+ #contato label {
+     font-size: 1.1em;
+ }
+
+ #contato input[type="text"],
+ #contato input[type="email"],
+ #contato textarea {
+     width: 100%;
+     padding: 5px;
+     margin: 5px 0;
+     border: 1px solid #ddd;
+ }
+
+ #contato button {
+     background-color: #333;
+     color: #fff;
+     border: none;
+     padding: 10px 20px;
+     font-size: 1.2em;
+     cursor: pointer;
+ }
+
+ #contato button:hover {
+     background-color: #555;
+ }
